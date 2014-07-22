@@ -23,7 +23,7 @@
 
             <Button
                 android:id="@+id/LaunchMap"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentRight="true"
@@ -36,7 +36,7 @@
 
             <Button
                 android:id="@+id/LaunchMarket"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/LaunchMap"
                 android:layout_alignRight="@+id/LaunchMap"
@@ -49,7 +49,7 @@
 
             <Button
                 android:id="@+id/SendEmail"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/LaunchMarket"
                 android:layout_alignRight="@+id/LaunchMarket"
@@ -62,7 +62,7 @@
 
             <Button
                 android:id="@+id/SendImage"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/SendEmail"
                 android:layout_alignRight="@+id/SendEmail"
@@ -75,7 +75,7 @@
 
             <Button
                 android:id="@+id/SendImages"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/SendImage"
                 android:layout_alignRight="@+id/SendImage"
